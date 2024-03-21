@@ -1,0 +1,6 @@
+#local secrets
+.streamlit/secrets.toml
+
+# Mac Specific
+.DS_Store
+

@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "base-chat-bot"
+version = "0.1.0"
+description = "test chat bot"
+authors = ["Dmitry Strakovsky <shifting.planes@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.32.2"
+streamlit-chat = "^0.1.1"
+langchain = "^0.1.12"
+python-dotenv = "^1.0.1"
+openai = "^1.14.2"
+pandas = "^2.2.1"
+datetime = "^5.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
